@@ -1,0 +1,198 @@
+  CREATE TABLE COUPONLIST 
+   (	ID VARCHAR2(20 BYTE), 
+	COUPON VARCHAR2(100 BYTE), 
+	COUPONNO VARCHAR2(100 BYTE)
+   ) ;
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('kim','1월달 기념 3000원 할인쿠폰!','3');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values (null,'신규회원 가입을 위한 10%할인쿠폰!','1');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('JUNG','1월달 기념 3000원 할인쿠폰!','3');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('KIM','신규회원 가입을 위한 10%할인쿠폰!','1');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('KIM','1월달 기념 3000원 할인쿠폰!','3');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('PARK','신규회원 가입을 위한 10%할인쿠폰!','1');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('PARK','VIP회원을위한 50% 할인쿠폰!','4');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('kim','생일축하 5000원 할인쿠폰! 을 선택하셨습니다.','2');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('sung','신규회원 가입을 위한 10%할인쿠폰!','1');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('sol','신규회원 가입을 위한 10%할인쿠폰!','1');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values (null,'신규회원 가입을 위한 10%할인쿠폰!','1');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('kim','신규회원 가입을 위한 10%할인쿠폰!','1');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('kim','10% 할인쿠폰!','5');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values ('kim','10% 할인쿠폰!','5');
+Insert into COUPONLIST (ID,COUPON,COUPONNO) values (null,'신규회원 가입을 위한 10%할인쿠폰!','1');
+
+ CREATE TABLE FOODLIST 
+   (	NAME1 VARCHAR2(30 BYTE), 
+	MENU VARCHAR2(30 BYTE), 
+	VAL NUMBER(10,0), 
+	PIN NUMBER(30,0)
+   ) ;
+SET DEFINE OFF;
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('봉구스','봉구퀸',4500,1);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('봉구스','봉구킹',500,2);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('봉구스','햄쏘야',300,3);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('봉구스','주먹밥',200,4);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('봉구스','컵라면',1000,5);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('김밥천국','김밥',2000,6);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('김밥천국','라면',4000,7);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('김밥천국','제육덮밥',5500,8);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('김밥천국','오징어덮밥',6000,9);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('김밥천국','떡만두국',6000,10);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('국밥집','순대국',8000,11);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('국밥집','선지해장국',8000,12);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('국밥집','뼈해장국',8000,13);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('국밥집','수육',13000,14);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('국밥집','순대',10000,15);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('추어탕집','추어탕',9000,16);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('추어탕집','추어튀김',8000,17);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('추어탕집','추어만두',8000,18);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('추어탕집','추어탕(특)',10000,19);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('추어탕집','모듬',30000,20);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('곰탕집','곰탕',9000,21);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('곰탕집','곰탕(특)',11000,22);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('곰탕집','해장국',8000,23);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('곰탕집','수육',10000,24);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('곰탕집','꼬리수육',10000,25);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('크라운호프','치킨',9000,26);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('크라운호프','피자',8000,27);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('크라운호프','육회',10000,28);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('크라운호프','마른오징어',9000,29);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('크라운호프','아이스포도',5500,30);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bbq','후라이드',10000,31);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bbq','양념',11000,32);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bbq','간장치킨',12000,33);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bbq','황금올리브',17000,34);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bbq','치즈볼',5000,35);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('교촌치킨','후라이드',10000,36);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('교촌치킨','양념',11000,37);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('교촌치킨','간장치킨',12000,38);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('교촌치킨','레드콤보',16000,39);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('교촌치킨','반반치킨',17000,40);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('굽네치킨','고추바사삭',18000,41);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('굽네치킨','후라이드',17000,42);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('굽네치킨','양념치킨',15000,43);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('굽네치킨','오리지날',16000,44);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('굽네치킨','갈비천왕',17000,45);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bhc','뿌링클',18000,46);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bhc','핫뿌링클',19000,47);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bhc','맛초킹',19000,48);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bhc','치즈볼',6000,49);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('bhc','소떡소떡',6000,50);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('피자헛','콤비네이션',15000,51);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('피자헛','치즈피자',14000,52);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('피자헛','고구마피자',16000,53);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('피자헛','페퍼로니',16000,54);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('피자헛','핫갈비피자',18000,55);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('미스터피자','콤비네이션',15000,56);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('미스터피자','치즈피자',14000,57);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('미스터피자','고구마피자',16000,58);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('미스터피자','페퍼로니',16000,59);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('미스터피자','핫갈비피자',18000,60);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('도미노피자','콤비네이션',15000,61);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('도미노피자','치즈피자',14000,62);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('도미노피자','고구마피자',16000,63);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('도미노피자','페퍼로니',16000,64);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('도미노피자','핫갈비피자',18000,65);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('알볼로피자','콤비네이션',15000,66);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('알볼로피자','치즈피자',14000,67);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('알볼로피자','고구마피자',16000,68);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('알볼로피자','페퍼로니',16000,69);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('알볼로피자','핫갈비피자',18000,70);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('족발집','족발',30000,71);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('족발집','족발(대)',50000,72);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('족발집','수육',30000,73);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('족발집','수육(대)',50000,74);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('족발집','쟁반국수',10000,75);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('해물탕집','모듬',60000,76);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('해물탕집','해물찜',30000,77);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('해물탕집','해물찜(대)',50000,78);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('해물탕집','해물탕',30000,79);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('해물탕집','해물탕(대)',50000,80);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('시카고피자','콤비네이션',15000,81);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('시카고피자','치즈피자',14000,82);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('시카고피자','고구마피자',16000,83);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('시카고피자','페퍼로니',16000,84);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('시카고피자','핫갈비피자',18000,85);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('니뽕내뽕','차뽕',7000,86);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('니뽕내뽕','크뽕',8000,87);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('니뽕내뽕','로뽕',7000,88);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('니뽕내뽕','고구마피자',9000,89);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('니뽕내뽕','갈릭피자',9000,90);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('블랙스테이크','안심스테이크',13000,91);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('블랙스테이크','등심스테이크',12000,92);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('블랙스테이크','로제파스터',11000,93);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('블랙스테이크','크림파스타',11000,94);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('블랙스테이크','랍스터스테이크',25000,95);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('레코드피자','콤비네이션',15000,96);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('레코드피자','치즈피자',14000,97);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('레코드피자','고구마피자',16000,98);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('레코드피자','페퍼로니',16000,99);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('레코드피자','핫갈비피자',18000,100);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맘스터치','싸이버거',6000,101);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맘스터치','새우버거',5000,102);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맘스터치','갈릭버거',7000,103);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맘스터치','징거버거',6000,104);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맘스터치','인크레더블버거',7000,105);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맥날','징거버거',5000,7);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맥날','데리버거',6000,8);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맥날','빅맥',6000,9);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맥날','상하이',6000,10);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('맥날','불고기버거',5000,11);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('버거킹','와퍼',6000,12);
+Insert into FOODLIST (NAME1,MENU,VAL,PIN) values ('버거킹','데리버거',6000,13);
+
+  CREATE TABLE MEMBER 
+   (	NO VARCHAR2(100 BYTE), 
+	NAME VARCHAR2(20 BYTE), 
+	ID VARCHAR2(20 BYTE), 
+	PASSWD VARCHAR2(20 BYTE), 
+	ADDRESS VARCHAR2(100 BYTE), 
+	PHONENUMBER VARCHAR2(20 BYTE), 
+	BIRTH VARCHAR2(50 BYTE), 
+	SYS_DATE DATE, 
+	BBS VARCHAR2(1000 BYTE)
+   ) ;
+Insert into MEMBER (NO,NAME,ID,PASSWD,ADDRESS,PHONENUMBER,BIRTH,SYS_DATE,BBS) values ('18','김','kim','1234','서울','01032145687','5144/12/65',to_date('20/01/03','RR/MM/DD'),'8282515');
+Insert into MEMBER (NO,NAME,ID,PASSWD,ADDRESS,PHONENUMBER,BIRTH,SYS_DATE,BBS) values ('19','박','park','1234','인천','01054877251','1324/12/22',to_date('20/01/03','RR/MM/DD'),null);
+Insert into MEMBER (NO,NAME,ID,PASSWD,ADDRESS,PHONENUMBER,BIRTH,SYS_DATE,BBS) values ('1','차','JUNG','1234','인천','011064512','1994/08/08',to_date('20/01/03','RR/MM/DD'),'8282');
+Insert into MEMBER (NO,NAME,ID,PASSWD,ADDRESS,PHONENUMBER,BIRTH,SYS_DATE,BBS) values ('1001','차','cha','1234','인천','0106485216','1993/09/90',to_date('20/01/06','RR/MM/DD'),null);
+Insert into MEMBER (NO,NAME,ID,PASSWD,ADDRESS,PHONENUMBER,BIRTH,SYS_DATE,BBS) values ('1002','이','lee','1234','인천','01026489751','1995/58/51',to_date('20/01/06','RR/MM/DD'),null);
+Insert into MEMBER (NO,NAME,ID,PASSWD,ADDRESS,PHONENUMBER,BIRTH,SYS_DATE,BBS) values ('1003','성','sung','1234','인천','0102947162','1996/58/12',to_date('20/01/06','RR/MM/DD'),null);
+Insert into MEMBER (NO,NAME,ID,PASSWD,ADDRESS,PHONENUMBER,BIRTH,SYS_DATE,BBS) values ('1004','솔','sol','1234','인천광역시','010-8411-6321','1998/01/55',to_date('20/01/06','RR/MM/DD'),null);
+Insert into MEMBER (NO,NAME,ID,PASSWD,ADDRESS,PHONENUMBER,BIRTH,SYS_DATE,BBS) values ('1005','호','ho','1234','인천','12345678901','1974/15/64',to_date('20/01/06','RR/MM/DD'),'8282');
+
+  CREATE TABLE REGISTRATION 
+   (	NO NUMBER, 
+	NAME VARCHAR2(30 BYTE), 
+	PASSWORD VARCHAR2(20 BYTE), 
+	PHNUMBER VARCHAR2(20 BYTE), 
+	ADDRESS VARCHAR2(100 BYTE), 
+	OPENTIME VARCHAR2(20 BYTE)
+   ) ;
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (1,'봉구스','1234','032-566-5134','인천광역시','09:00~21:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (3,'김밥천국','1234','032-516-6326','인천광역시','11:00~12:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (3,'국밥집','1234','032-514-6321','인천광역시','11:00~12:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (4,'추어탕집','1234','032-365-1484','전라북도','11:00~12:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (5,'곰탕집','1234','032-513-1314','인천광역시','11:00~12:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (6,'크라운호프','1234','032-846-1148','인천광역시','11:00~15:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (7,'bbq','1234','032-457-5799','서울특별시','9:00~19:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (8,'교촌치킨','1234','032-491-3030','전라남도','9:00~21:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (9,'굽네치킨','1234','032-173-6352','서울특별시','9:00~20:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (10,'bhc','1234','032-463-2067','전라남도','8:00~18:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (11,'피자헛','1234','032-468-7980','서울특별시','10:00~17:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (12,'미스터피자','1234','032-240-5188','서울특별시','8:00~23:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (13,'도미노피자','1234','032-266-6448','인천광역시','9:00~22:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (14,'알볼로피자','1234','032-259-3925','인천광역시','8:00~22:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (15,'족발집','1234','032-431-2895','인천광역시','8:00~23:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (16,'해물탕집','1234','032-326-4198','인천광역시','8:00~17:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (17,'시카고피자','1234','032-263-7125','대구광역시','8:00~17:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (18,'니뽕내뽕','1234','032-458-8543','부산광역시','9:00~21:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (19,'블랙스테이크','1234','032-166-2041','제주특별자치도','10:00~20:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (20,'레코드피자','1234','032-356-7702','경상남도','9:00~20:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (21,'맘스터치','1234','032-198-1030','경상북도','9:00~22:00');
+Insert into REGISTRATION (NO,NAME,PASSWORD,PHNUMBER,ADDRESS,OPENTIME) values (22,'맥날','1234','032-513-4162','인천광역시','12:00~19:00');
+
+
+CREATE SEQUENCE  FOOD_SEQ  MINVALUE 1 MAXVALUE 1000 INCREMENT BY 1 START WITH 14 NOCACHE  NOORDER  NOCYCLE ;
+
+CREATE SEQUENCE  MEM_SEQ  MINVALUE 1 MAXVALUE 10000 INCREMENT BY 1 START WITH 2001 CACHE 1000 NOORDER  CYCLE ;
+
+CREATE SEQUENCE  NO_SEQ  MINVALUE 22 MAXVALUE 10000 INCREMENT BY 1 START WITH 42 CACHE 20 NOORDER  NOCYCLE ;
